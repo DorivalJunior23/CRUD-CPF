@@ -1,7 +1,7 @@
 # Build
-npm i express
-docker build -t my-app .
-docker-compose up
+npm i express<br>
+docker build -t my-app .<br>
+docker-compose up<br>
 
 # Frameworks
 
