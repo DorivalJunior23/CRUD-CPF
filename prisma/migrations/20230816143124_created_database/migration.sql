@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "Cpf" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "cpf" TEXT NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Cpf_cpf_key" ON "Cpf"("cpf");
